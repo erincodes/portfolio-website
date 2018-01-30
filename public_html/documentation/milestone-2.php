@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>PWP Milestone 2</title>
+		<title>Erin's PWP Milestone 2</title>
 	</head>
 	<body>
 		<h1>PWP Milestone 2</h1>
@@ -14,13 +14,14 @@
 			<h3>Testimonials:</h3>
 				<p>This section will include quotes and names from people who recommend working me. I'd like to interactively rotate through numerous quotes.</p>
 			<h3>Contact:</h3>
-				<p>This section will be the "call to action". It will include a contact form and my professional email address. I'd like to include a "check box" opt-in section to subscribe to my email list, as a long-term goal of mine is to build a blog.</p>
+				<p>This section will be the "call to action." It will include a contact form and my professional email address. I'd like to include a "check box" opt-in section to subscribe to my email list, as a long-term goal of mine is to build a blog and distribute posts to email subscribers.</p>
 			<h3>Footer:</h3>
-				<p>I'd like to have a footer that includes social media icons that link to my LinkedIn, Twitter, and GitHub pages.</p>
-				<br>
+				<p>I'd like to have a footer that includes social media icons that link to my LinkedIn, Twitter, and GitHub pages. Ideally this would be included on any and all future pages on the site.</p>
+		<br>
 		<h2><em>Wireframes</em></h2>
 		<h3>Mobile Wireframe</h3>
 			<p>Place your wireframe images in your milestone-2.php document. Image files must be less than 2MB in size, and in SVG, JPEG, PNG, or GIF format.</p>
 		<h3>Desktop Wireframe</h3>
+		<br>
 	</body>
 </html>
