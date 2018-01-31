@@ -2,10 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Erin's PWP Milestone 2</title>
+		<title>Erin's PWP Milestone 2a</title>
 	</head>
 	<body>
-		<h1>PWP Milestone 2</h1>
+		<h1>PWP Milestone 2a</h1>
 		<h2><em>Content Strategy</em></h2>
 			<h3>Header:</h3>
 				<p>The header section of the content will serve as a landing page and will be the first thing the user sees. I'd like it to be clean and simple: my name, tagline, and some sort of office/desk photo that embodies an "organized" vibe. Above the "hero" image, I'd like to include a horizontal menu bar with the content sections I have mapped out below, and have them serve as anchor links to jump down the page. This menu will condense to a hamburger menu on mobile.</p>
