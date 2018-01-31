@@ -22,7 +22,8 @@
 		<br>
 		<h2><em>Wireframes</em></h2>
 		<h3>Mobile Wireframe</h3>
-			<p>Place your wireframe images in your milestone-2.php document. Image files must be less than 2MB in size, and in SVG, JPEG, PNG, or GIF format.</p>
+			<img src="public_html/documentation/images/erin-wireframe-mobile.png" alt="Mobile Wireframe"
+	  	<br>
 		<h3>Desktop Wireframe</h3>
 		<br>
 	</body>
