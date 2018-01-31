@@ -22,7 +22,7 @@
 		<br>
 		<h2><em>Wireframes</em></h2>
 		<h3>Mobile Wireframe</h3>
-			<img src="public_html/documentation/images/erin-wireframe-mobile.png" alt="Mobile Wireframe"
+			<img src="images/erin-wireframe-mobile.png" alt="Mobile Wireframe">
 	  	<br>
 		<h3>Desktop Wireframe</h3>
 		<br>
