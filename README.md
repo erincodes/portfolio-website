@@ -13,3 +13,35 @@ Nice job. Your Milestone 1 passes at [Tier III](https://bootcamp-coders.cnm.edu/
 ### Edits &amp; Suggestions
 - Good idea to kill any "dead code" that's left behind - that means deleting the commented-out code that's leftover.
 - Watch HTML indentation. This becomes more important as the document becomes more complex. If the indentation is correct and accurate, building and debugging pages becomes much easier. 
+
+## Milestone 2&alpha; Feedback
+Nice work - your direction and layout ideas are clear and well defined. Overall the element layout should work well with the Bootstrap grid with a few simple customizations to the default navbar. I think everything you'll need for that is already built into Bootstrap - have a look at the flexbox options, they may be of help.
+
+The interactive and animated elements will likely need some JavaScript that is not included with Bootstrap however, so be prepared for some potential complexity there. But overall it shouldn't be too difficult. I have some recommendations below. 
+
+**Tesimonials**: Rotating a set of content can be done with some custom jQuery. It will basically cycle thorough each quote and fade-in/fade-out after a delay. You may need to build this from scratch, and I can help point you in the right direction when the time comes.
+
+**Portfolio**: The behavior you're wanting here will require using some JavaScript tools. For the thumbnail carousel functionality, I think [Flickity](https://flickity.metafizzy.co) might be worth a look. It's touch/swipe enabled for mobile, and responsive. 
+
+The built-in Bootstrap tooltips probably not the best choice for your gallery as the functionality and amount of data you can display is limited. Traditionally tooltips are really only intended to display a brief line of text, so I think you'll need a different solution here.
+
+One idea that that came to my mind was something along the lines of this: https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/. This would be CSS driven and won't require any additional JS.
+
+If you're set on going with a hover info bubble, I'd take a look at a customizable tooltip JS plugin like [Tooltipster](http://iamceege.github.io/tooltipster/).
+
+Either way, be prepared for some potential challenges that come with building this part of the UI and integrating such solutions.
+
+**Contact Me**: Do you have an existing mail list that you'd like to integrate with this site? If so, have a look at the official  documentation for the list software you're using and look for  integration instructions for PHP or JavaScript. Depending on what/how I'm not sure how easily it can be integrated into our existing Swiftmailer-driven contact form, but there could be some easy options available. Simplest solution: the "Subscribe to email list" option is a simple opt-in field and the mail-list subscription could be something you manage manually at this point.
+
+**Footer**: Bootstrap has a built-in "fixed-bottom" class you can use. You can disable it using some custom CSS in a `@media` query on the appropriate breakpoints.
+
+Your directory structure and code all look good. I think you're ready to begin development.
+
+Build your PWP in a file named `index.php` inside `/public_html`. CSS, images, and JS directories should also be inside `public_html` and siblings to `/documentation`. We won't be using the `/documentation` directory any longer.
+
+If you feel ahead of the curve during your development phase in the coming weeks, have a look at the [PWP Contact Form Doc](https://bootcamp-coders.cnm.edu/class-materials/jquery-validated-captcha-form/) for an overview of the Swiftmailer integration.
+
+Nice work. Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You're clear to begin development!
+
+### Edits &amp; Suggestions
+- [FontAwesome](https://fontawesome.com/) is a great resource for free iconography.
