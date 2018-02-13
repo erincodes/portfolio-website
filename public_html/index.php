@@ -20,9 +20,6 @@
 
 	</head>
 	<body>
-		<!--Example element formats if needed:-->
-		<!--<img src="images/erin-scott.jpg" alt="Erin Scott">-->
-		<!--<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>-->
 		<header>
 			<nav class="navbar">
 			</nav>
@@ -35,6 +32,7 @@
 							<div class="container">
 								<h1 class="display-3 text-center">Erin Scott</h1>
 								<p class="lead text-center">Web Development, Marketing, and Project Management</p>
+								<!--<img src="images/erin-scott.jpg" alt="Erin Scott">-->
 							</div>
 						</div>
 					</div>
@@ -45,23 +43,34 @@
 			<div class="container">
 				<div class="row">
 					<div class="column">
-
+						<h2>About Me</h2>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section><div class="container">
+		<section>
+			<div class="container">
 				<div class="row">
 					<div class="column">
-
+						<h2>Testimonials</h2>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section><div class="container">
+		<section>
+			<div class="container">
 				<div class="row">
 					<div class="column">
-
+						<h2>Portfolio</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="column">
+						<h2>Contact</h2>
 					</div>
 				</div>
 			</div>
@@ -70,6 +79,7 @@
 			<div class="container-fluid">
 				<div class="sticky-footer">
 					<p class="text-center text-white bg-dark p-4 m-0 fixed-bottom">Erin Scott ©2018</p>
+					<!--<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>-->
 				</div>
 			</div>
 		</footer>
