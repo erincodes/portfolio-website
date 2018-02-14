@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 		<!-- Custom CSS -->
-		<link rel="stylesheet" href="/public_html/css/style.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
@@ -25,15 +25,17 @@
 			</nav>
 		</header>
 		<section>
-			<div class="container-fluid">
+			<div class="container-fluid backgroundimg" >
 				<div class="row-fluid">
 					<div class="column">
-						<div class="jumbotron jumbotron-fluid">
-							<div class="container">
-								<h1 class="display-3 text-center">Erin Scott</h1>
-								<p class="lead text-center">Web Development, Marketing, and Project Management</p>
-								<!--<img src="images/erin-scott.jpg" alt="Erin Scott">-->
-							</div>
+						<div class="container">
+							<button>About Me</button>
+							<button>Testimonials</button>
+							<button>Portfolio</button>
+							<button>Contact</button>
+							<h1 class="display-3 text-center">Erin Scott</h1>
+							<p class="lead text-center">Web Development, Marketing, and Project Management</p>
+<!--								<img src="home-office.jpg" alt="Home Office" width="100%">-->
 						</div>
 					</div>
 				</div>
@@ -71,6 +73,7 @@
 				<div class="row">
 					<div class="column">
 						<h2>Contact</h2>
+						<p class="text-center">erinleeannscott@gmail.com</p>
 					</div>
 				</div>
 			</div>
