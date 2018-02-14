@@ -75,6 +75,7 @@
 				<div class="row">
 					<div class="column">
 						<h2>About Me</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ante lectus. Duis sagittis id urna vitae consectetur. Aliquam vitae augue porttitor enim tristique feugiat vitae fringilla nibh. Donec sit amet imperdiet orci. Nunc efficitur tincidunt est, sed pharetra ex vulputate interdum. Mauris tempor eget odio non elementum. Nullam eleifend ipsum at mattis dignissim. Quisque in eros efficitur, posuere nibh sed, elementum lectus. Quisque placerat nisl sed elit semper pharetra. Maecenas purus nisl, malesuada gravida ornare id, efficitur non tellus. Donec varius augue tincidunt leo euismod, at finibus elit dapibus. Praesent ut hendrerit libero, non ullamcorper elit. Pellentesque malesuada sapien a cursus sodales.</p>
 					</div>
 				</div>
 			</div>
@@ -84,6 +85,7 @@
 				<div class="row">
 					<div class="column">
 						<h2>Testimonials</h2>
+						<p>Nunc elementum, metus eu pretium fermentum, massa erat tincidunt ex, eget accumsan eros magna et justo. Etiam sit amet gravida velit, at condimentum libero. Donec venenatis congue arcu a convallis. Cras scelerisque enim et velit semper, quis interdum orci iaculis. Nunc sollicitudin lacinia diam et rhoncus. Phasellus consectetur nisi lectus, eget pulvinar nisl tempor in. Nam finibus tincidunt libero, vitae dictum eros aliquet sit amet. Vivamus venenatis metus quis quam iaculis egestas. Maecenas cursus quam felis, a commodo eros sollicitudin et. Donec eget felis lobortis, posuere mi sit amet, tempus arcu. Proin fringilla vulputate sem eu lobortis. Donec sit amet dui at elit hendrerit iaculis sit amet vel turpis.</p>
 					</div>
 				</div>
 			</div>
@@ -93,6 +95,7 @@
 				<div class="row">
 					<div class="column">
 						<h2>Portfolio</h2>
+						<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed cursus ipsum metus, ut euismod leo efficitur bibendum. Suspendisse malesuada, felis non sagittis maximus, nisl quam accumsan velit, at varius nisl eros pulvinar leo. Vivamus tempor mi eget urna vestibulum, a euismod ligula scelerisque. Donec egestas rutrum metus, ut pellentesque massa consequat eget. Aliquam porttitor sit amet dui nec consectetur. Nunc vel dolor feugiat lectus commodo faucibus vehicula non sapien. Mauris orci nibh, tincidunt sed sodales non, pulvinar in sem. Praesent fringilla sed libero vel congue. Aenean blandit diam id dolor luctus, nec interdum sapien posuere. Maecenas lectus dui, mollis et lacus consectetur, venenatis lacinia arcu. Aenean tempor diam eu ex pellentesque imperdiet. Etiam maximus pellentesque mauris vitae tincidunt. Sed odio libero, accumsan at mi sit amet, bibendum tincidunt arcu. Sed cursus diam non lacus ultricies blandit. Mauris luctus finibus nulla vitae vestibulum.</p>
 					</div>
 				</div>
 			</div>
@@ -111,6 +114,7 @@
 			<div class="container-fluid">
 				<div class="sticky-footer">
 					<p class="text-center text-white bg-dark p-4 m-0 fixed-bottom">Erin Scott ©2018</p>
+					<p>Pellentesque hendrerit condimentum mi ut convallis. Suspendisse volutpat nisl vel suscipit viverra. Nunc sit amet turpis vitae turpis lobortis dignissim. Suspendisse eros mi, faucibus id massa eu, gravida suscipit felis. Curabitur suscipit sapien sit amet ex rhoncus dictum. Donec in lorem blandit, dignissim justo at, tempor ex. Praesent nec eros dignissim, pulvinar nisl eget, ornare nibh. Ut sagittis facilisis enim a feugiat. Proin eget elit ligula.</p>
 					<!--<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>-->
 				</div>
 			</div>
