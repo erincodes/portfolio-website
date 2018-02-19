@@ -22,7 +22,7 @@
 	<body>
 		<header>
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="#">ErinScott.com</a>
+				<a class="navbar-brand" href="#">ErinScott.co</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -51,7 +51,6 @@
 						<div class="container pt-5">
 							<h1 class="display-3 text-center">Erin Scott</h1>
 							<p class="lead text-center">Web Development, Marketing, and Project Management</p>
-<!--								<img src="home-office.jpg" alt="Home Office" width="100%">-->
 						</div>
 					</div>
 				</div>
@@ -60,8 +59,9 @@
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="column mt-5">
+					<div class="column mt-5 col-12">
 						<h2>About Me</h2>
+						<img class="img-fluid rounded-circle" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ante lectus. Duis sagittis id urna vitae consectetur. Aliquam vitae augue porttitor enim tristique feugiat vitae fringilla nibh. Donec sit amet imperdiet orci. Nunc efficitur tincidunt est, sed pharetra ex vulputate interdum. Mauris tempor eget odio non elementum. Nullam eleifend ipsum at mattis dignissim. Quisque in eros efficitur, posuere nibh sed, elementum lectus. Quisque placerat nisl sed elit semper pharetra. Maecenas purus nisl, malesuada gravida ornare id, efficitur non tellus. Donec varius augue tincidunt leo euismod, at finibus elit dapibus. Praesent ut hendrerit libero, non ullamcorper elit. Pellentesque malesuada sapien a cursus sodales.</p>
 					</div>
 				</div>
