@@ -31,13 +31,13 @@
 							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Testimonials</a>
+							<a class="nav-link" href="#testimonials">Testimonials</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Portfolio</a>
+							<a class="nav-link" href="#portfolio">Portfolio</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -59,7 +59,7 @@
 			<div class="container" id="about">
 				<div class="row mt-5">
 					<h2>About Erin</h2>
-					<div class="column mt-5 col-4">
+					<div class="column mt-5 col-md-4">
 						<img class="img-fluid rounded-circle" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot" height="250em" width="250em">
 					</div>
 					<div class="column mt-5 col 2">
@@ -69,7 +69,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="container">
+			<div class="container" id="testimonials">
 				<div class="row">
 					<div class="column mt-5">
 						<h2>Testimonials</h2>
@@ -79,7 +79,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="container">
+			<div class="container" id="portfolio">
 				<div class="row">
 					<div class="column mt-5">
 						<h2>Portfolio</h2>
@@ -89,7 +89,7 @@
 			</div>
 		</section>
 		<section>
-			<div class="container">
+			<div class="container" id="contact">
 				<div class="row">
 					<div class="column mt-5 pb-5 mb-5">
 						<h2>Contact</h2>
