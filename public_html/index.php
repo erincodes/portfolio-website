@@ -58,8 +58,8 @@
 		<section>
 			<div class="container" id="about">
 				<div class="row mt-5">
-					<h2>About Erin</h2>
 					<div class="column mt-5 col-md-4">
+						<h2>About Erin</h2>
 						<img class="img-fluid rounded-circle" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot" height="250em" width="250em">
 					</div>
 					<div class="column mt-5 col 2">
@@ -83,7 +83,15 @@
 				<div class="row">
 					<div class="column mt-5">
 						<h2>Portfolio</h2>
-						<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed cursus ipsum metus, ut euismod leo efficitur bibendum. Suspendisse malesuada, felis non sagittis maximus, nisl quam accumsan velit, at varius nisl eros pulvinar leo. Vivamus tempor mi eget urna vestibulum, a euismod ligula scelerisque. Donec egestas rutrum metus, ut pellentesque massa consequat eget. Aliquam porttitor sit amet dui nec consectetur. Nunc vel dolor feugiat lectus commodo faucibus vehicula non sapien. Mauris orci nibh, tincidunt sed sodales non, pulvinar in sem. Praesent fringilla sed libero vel congue. Aenean blandit diam id dolor luctus, nec interdum sapien posuere. Maecenas lectus dui, mollis et lacus consectetur, venenatis lacinia arcu. Aenean tempor diam eu ex pellentesque imperdiet. Etiam maximus pellentesque mauris vitae tincidunt. Sed odio libero, accumsan at mi sit amet, bibendum tincidunt arcu. Sed cursus diam non lacus ultricies blandit. Mauris luctus finibus nulla vitae vestibulum.</p>
+						<p>Please explore examples of my past work below:</p>
+						<div class="card" style="width: 18rem;">
+							<img class="card-img-top" src="..." alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
