@@ -5,13 +5,13 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-		<!-- Custom CSS -->
+<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -19,8 +19,11 @@
 		<title>Erin Scott's Portfolio</title>
 
 	</head>
+
 	<body>
 		<header>
+
+<!--Nav bar-->
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -43,6 +46,8 @@
 				</div>
 			</nav>
 		</header>
+
+<!--Welcome message-->
 		<section>
 			<div class="container-fluid backgroundimg" >
 				<div class="row-fluid">
@@ -55,6 +60,8 @@
 				</div>
 			</div>
 		</section>
+
+<!--About section-->
 		<section>
 			<div class="container" id="about">
 				<div class="row mt-5">
@@ -68,6 +75,8 @@
 				</div>
 			</div>
 		</section>
+
+<!--Testimonials section-->
 		<section>
 			<div class="container" id="testimonials">
 				<div class="row">
@@ -78,24 +87,54 @@
 				</div>
 			</div>
 		</section>
+
+<!--Portfolio section-->
 		<section>
 			<div class="container" id="portfolio">
+				<h2>Portfolio</h2>
+				<p>Please explore examples of my past work below:</p>
 				<div class="row">
-					<div class="column mt-5">
-						<h2>Portfolio</h2>
-						<p>Please explore examples of my past work below:</p>
-						<div class="card" style="width: 18rem;">
-							<img class="card-img-top" src="..." alt="Card image cap">
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								<a href="#" class="btn btn-primary">Go somewhere</a>
+					<div class="column">
+						<div class="row m-3">
+							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
+								<div class="card-body">
+									<h5 class="card-title text-center">ABQ Street Art Web App</h5>
+									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
+									<a href="#" class="btn btn-primary btn-light">View Project</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="row m-3">
+							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
+								<div class="card-body">
+									<h5 class="card-title text-center">Project #2</h5>
+									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
+									<a href="#" class="btn btn-primary btn-light">View Project</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="row m-3">
+							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
+								<div class="card-body">
+									<h5 class="card-title text-center">Project #3</h5>
+									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
+									<a href="#" class="btn btn-primary btn-light">View Project</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
+<!--Contact form section-->
 		<section>
 			<div class="container" id="contact">
 				<div class="row">
@@ -107,6 +146,8 @@
 				</div>
 			</div>
 		</section>
+
+<!--Bootstrap sticky footer-->
 		<footer>
 			<div class="container-fluid">
 				<div class="sticky-footer">
@@ -115,5 +156,6 @@
 				</div>
 			</div>
 		</footer>
+
 	</body>
 </html>
