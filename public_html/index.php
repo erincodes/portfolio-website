@@ -29,7 +29,7 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">About Me</a>
+							<a class="nav-link" href="#about">About</a>
 						</li>
 						<li class="nav-item active">
 							<a class="nav-link" href="#">Testimonials</a>
@@ -57,12 +57,14 @@
 			</div>
 		</section>
 		<section>
-			<div class="container">
-				<div class="row">
-					<div class="column mt-5 col-12">
-						<h2>About Me</h2>
-						<img class="img-fluid rounded-circle" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ante lectus. Duis sagittis id urna vitae consectetur. Aliquam vitae augue porttitor enim tristique feugiat vitae fringilla nibh. Donec sit amet imperdiet orci. Nunc efficitur tincidunt est, sed pharetra ex vulputate interdum. Mauris tempor eget odio non elementum. Nullam eleifend ipsum at mattis dignissim. Quisque in eros efficitur, posuere nibh sed, elementum lectus. Quisque placerat nisl sed elit semper pharetra. Maecenas purus nisl, malesuada gravida ornare id, efficitur non tellus. Donec varius augue tincidunt leo euismod, at finibus elit dapibus. Praesent ut hendrerit libero, non ullamcorper elit. Pellentesque malesuada sapien a cursus sodales.</p>
+			<div class="container" id="about">
+				<div class="row mt-5">
+					<h2>About Erin</h2>
+					<div class="column mt-5 col-4">
+						<img class="img-fluid rounded-circle" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot" height="250em" width="250em">
+					</div>
+					<div class="column mt-5 col 2">
+						<p>Erin helps clients craft stellar online presences for their businesses. She brings a strategic approach to web development, marketing, and project management, and excels as a liaison between technical teams & clients. Erin is a 6th generation New Mexican and is passionate about economic development in the Land of Enchantment. She has also spent significant time in Latin America and is an avid Spanish language lover. Connect with her on <a href="https://www.linkedin.com/in/erinscottabq/" target="_blank">LinkedIn</a> or on <a href="https://twitter.com/dot_of_scott/" target="_blank">Twitter.</a></p>
 					</div>
 				</div>
 			</div>
