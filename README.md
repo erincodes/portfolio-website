@@ -45,3 +45,14 @@ Nice work. Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/
 
 ### Edits &amp; Suggestions
 - [FontAwesome](https://fontawesome.com/) is a great resource for free iconography.
+
+## Milestone 2b Feedback
+
+You're making good progress on you pwp site. It looks clean and simple.
+There is an error from the way your picture is sized.
+
+Consider reducing the break point of your navbar. 
+There are some misaligned elements on the page that become more visible in mobile view.
+Consider making the links to your github and Linkedin profiles larger or icons.
+
+Keep up the good work. Your Milestone 2b grade is Tier IV.
