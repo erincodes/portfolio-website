@@ -90,7 +90,7 @@
 		<section>
 			<div class="container" id="portfolio">
 				<h2>Portfolio</h2>
-				<p>Please explore examples of my past work below:</p>
+				<p>Explore examples of Erin's past work below:</p>
 				<div class="row">
 					<div class="column">
 						<div class="row m-3">
