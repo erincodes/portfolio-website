@@ -45,7 +45,7 @@
 			</nav>
 		</header>
 
-<!--Welcome message-->
+<!--Hero image and welcome message-->
 		<section>
 			<div class="container-fluid backgroundimg" >
 				<div class="row-fluid">
