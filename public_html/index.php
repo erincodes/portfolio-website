@@ -153,14 +153,14 @@
 					<div class="column mt-5 pb-5 mb-5 md-6">
 						<h2>Contact</h2>
 						<p class="mx-auto">erinleeannscott@gmail.com</p>
-						<form class="form-horizontal well" action="email.php">
+						<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
 									<div class="input-group-addon">
 										<i class="fa fa-user" aria-hidden="true"></i>
 									</div>
-									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+									<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Name">
 								</div>
 							</div>
 							<div class="form-group">
@@ -169,7 +169,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-envelope" aria-hidden="true"></i>
 									</div>
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+									<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Email">
 								</div>
 							</div>
 							<div class="form-group">
@@ -178,7 +178,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+									<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject">
 								</div>
 							</div>
 							<div class="form-group">
