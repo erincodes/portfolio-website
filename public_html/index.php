@@ -196,8 +196,8 @@
 <!--Submit button-->
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 						</form>
+						<div id="output-area"></div>
 					</div>
-					<div id="output-area"></div>
 				</div>
 			</div>
 		</section>
