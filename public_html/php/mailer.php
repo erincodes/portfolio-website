@@ -6,6 +6,7 @@
  * library with Google reCAPTCHA integration.
  *
  * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Erin Scott <erinleeannscott@gmail.com>
  **/
 
 // require all composer dependencies
