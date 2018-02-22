@@ -191,6 +191,7 @@
 							</div>
 <!--Google reCAPTCHA-->
 							<div class="g-recaptcha" data-sitekey="6Lc19kcUAAAAAP5R_SiEzd-L2ir3Fjq11JQkk3ko"></div>
+<!--Form buttons-->
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
