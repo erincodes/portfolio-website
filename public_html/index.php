@@ -152,7 +152,6 @@
 				<div class="row">
 					<div class="column mt-5 pb-5 mb-5 md-6">
 						<h2>Contact</h2>
-						<p class="mx-auto">erinleeannscott@gmail.com</p>
 						<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
 							<div class="form-group">
 								<label for="name">Name</label>
