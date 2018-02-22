@@ -150,7 +150,7 @@
 		<section>
 			<div class="container" id="contact">
 				<div class="row">
-					<div class="column mt-5 pb-5 mb-5">
+					<div class="column mt-5 pb-5 mb-5 md-6">
 						<h2>Contact</h2>
 						<p class="mx-auto">erinleeannscott@gmail.com</p>
 						<form class="form-horizontal well" action="email.php">
