@@ -185,6 +185,7 @@
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
 					</div>
+					<div id="output-area"></div>
 				</div>
 			</div>
 		</section>
