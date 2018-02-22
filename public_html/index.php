@@ -9,7 +9,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!-- FontAwesome -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--		I didn't love the look of the icons on the form, commenting out as of 1/22-->
+<!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
 
 <!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
@@ -148,9 +149,9 @@
 
 <!--Contact form section-->
 		<section>
-			<div class="container" id="contact">
+			<div class="container" id="contact-section">
 				<div class="row">
-					<div class="column mt-5 pb-5 mb-5 md-6">
+					<div class="column mt-5 mb-5 pb-5 col-12">
 						<h2>Contact</h2>
 						<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
 							<div class="form-group">
@@ -159,7 +160,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-user" aria-hidden="true"></i>
 									</div>
-									<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Name">
+									<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Your name">
 								</div>
 							</div>
 							<div class="form-group">
@@ -168,7 +169,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-envelope" aria-hidden="true"></i>
 									</div>
-									<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Email">
+									<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Your email address">
 								</div>
 							</div>
 							<div class="form-group">
@@ -177,7 +178,7 @@
 									<div class="input-group-addon">
 										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
-									<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject">
+									<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Email subject line">
 								</div>
 							</div>
 							<div class="form-group">
@@ -186,14 +187,14 @@
 									<div class="input-group-addon">
 										<i class="fa fa-comment" aria-hidden="true"></i>
 									</div>
-									<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Message"></textarea>
+									<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Message for Erin"></textarea>
 								</div>
 							</div>
 <!--Google reCAPTCHA-->
 							<div class="g-recaptcha" data-sitekey="6Lc19kcUAAAAAP5R_SiEzd-L2ir3Fjq11JQkk3ko"></div>
-<!--Form buttons-->
+							<br>
+<!--Submit button-->
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 						</form>
 					</div>
 					<div id="output-area"></div>

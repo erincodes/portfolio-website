@@ -89,6 +89,7 @@ try {
 	 * If the number attempted !== number accepted it's an Exception.
 	 **/
 	if($numSent !== count($recipients)) {
+
 		// The $failedRecipients parameter passed in the send() contains an array of the Emails that failed.
 		throw(new RuntimeException("unable to send email"));
 	}
