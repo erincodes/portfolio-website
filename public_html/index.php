@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!-- FontAwesome -->
-<!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
@@ -172,6 +172,15 @@
 								</div>
 							</div>
 							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Subject">
+								</div>
+							</div>
+							<div class="form-group">
 								<label for="message">Message</label>
 								<div class="input-group">
 									<div class="input-group-addon">
@@ -180,6 +189,7 @@
 									<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Message"></textarea>
 								</div>
 							</div>
+<!--Google reCAPTCHA-->
 							<div class="g-recaptcha" data-sitekey="6Lc19kcUAAAAAP5R_SiEzd-L2ir3Fjq11JQkk3ko"></div>
 							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
