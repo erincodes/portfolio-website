@@ -9,8 +9,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 <!-- FontAwesome -->
-<!--		I didn't love the look of the icons on the form, commenting out as of 1/22-->
-<!--		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 <!-- Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
@@ -37,7 +36,7 @@
 	<body>
 		<header>
 <!--Nav bar-->
-			<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<nav class="navbar navbar-expand-md navbar-light bg-light d-flex justify-content-end">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -53,7 +52,7 @@
 							<a class="nav-link" href="#portfolio">Portfolio</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="#contact">Contact</a>
+							<a class="nav-link" href="#contact-section">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -136,8 +135,8 @@
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
 								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
 								<div class="card-body">
-									<h5 class="card-title text-center">Project #3</h5>
-									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
+									<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
+									<p class="card-text">Annual publication distributed internationally to those looking to visit the city. Project managed for 2016 and 2017 editions.</p>
 									<a href="#" class="btn btn-primary btn-light">View Project</a>
 								</div>
 							</div>
@@ -158,7 +157,6 @@
 								<label for="name">Name</label>
 								<div class="input-group">
 									<div class="input-group-addon">
-										<i class="fa fa-user" aria-hidden="true"></i>
 									</div>
 									<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Your name">
 								</div>
@@ -167,7 +165,6 @@
 								<label for="email">Email address</label>
 								<div class="input-group">
 									<div class="input-group-addon">
-										<i class="fa fa-envelope" aria-hidden="true"></i>
 									</div>
 									<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Your email address">
 								</div>
@@ -176,7 +173,6 @@
 								<label for="subject">Subject</label>
 								<div class="input-group">
 									<div class="input-group-addon">
-										<i class="fa fa-pencil" aria-hidden="true"></i>
 									</div>
 									<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Email subject line">
 								</div>
@@ -185,9 +181,16 @@
 								<label for="message">Message</label>
 								<div class="input-group">
 									<div class="input-group-addon">
-										<i class="fa fa-comment" aria-hidden="true"></i>
 									</div>
 									<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Message for Erin"></textarea>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="opt-in">Would you like to be added to my email newsletter list?</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+									</div>
+									<input type="checkbox" class="form-control" id="contactFormOptIn" name="contactFormOptIn">
 								</div>
 							</div>
 <!--Google reCAPTCHA-->
@@ -205,9 +208,14 @@
 <!--Bootstrap sticky footer-->
 		<footer>
 			<div class="container-fluid">
-				<div class="sticky-footer">
-					<p class="text-center text-white bg-dark p-4 m-0 fixed-bottom">Erin Scott ©2018</p>
-					<!--<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>-->
+				<div class="sticky-footer text-center text-white bg-dark pt-2 pb-0 m-0 fixed-bottom">
+					<p>
+						<a href="https://github.com/erincodes/" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+						<a href="https://www.linkedin.com/in/erinscottabq/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+						<a href="https://twitter.com/dot_of_scott/" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+						<br>
+						Erin Scott ©2018
+					</p>
 				</div>
 			</div>
 		</footer>
