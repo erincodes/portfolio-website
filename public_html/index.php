@@ -91,10 +91,13 @@
 <!--Testimonials section-->
 		<section>
 			<div class="container" id="testimonials">
-				<div class="row">
-					<div class="column mt-5">
-						<h2>Testimonials</h2>
-						<p>Nunc elementum, metus eu pretium fermentum, massa erat tincidunt ex, eget accumsan eros magna et justo. Etiam sit amet gravida velit, at condimentum libero. Donec venenatis congue arcu a convallis. Cras scelerisque enim et velit semper, quis interdum orci iaculis. Nunc sollicitudin lacinia diam et rhoncus. Phasellus consectetur nisi lectus, eget pulvinar nisl tempor in. Nam finibus tincidunt libero, vitae dictum eros aliquet sit amet. Vivamus venenatis metus quis quam iaculis egestas. Maecenas cursus quam felis, a commodo eros sollicitudin et. Donec eget felis lobortis, posuere mi sit amet, tempus arcu. Proin fringilla vulputate sem eu lobortis. Donec sit amet dui at elit hendrerit iaculis sit amet vel turpis.</p>
+				<div class="row mt-5">
+					<h2>Testimonials</h2>
+					<div class="column mt-5 col-md-4"">
+						<p>"I loved working with Erin, she was great." -Kind person #1</p>
+					</div>
+					<div class="column mt-5 col-md-4"">
+						<p>"Erin was awesome to collaborate with!" -Kind person #2</p>
 					</div>
 				</div>
 			</div>
