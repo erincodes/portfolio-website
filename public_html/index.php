@@ -127,7 +127,7 @@
 								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
 								<div class="card-body">
 									<h5 class="card-title text-center">Project #2</h5>
-									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
+									<p class="card-text">Description #2</p>
 									<a href="#" class="btn btn-primary btn-light">View Project</a>
 								</div>
 							</div>
