@@ -34,8 +34,8 @@
 	</head>
 
 	<body>
+		<!--Nav bar-->
 		<header>
-<!--Nav bar-->
 			<nav class="navbar navbar-expand-md navbar-light bg-light d-flex justify-content-end">
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -112,11 +112,13 @@
 					<div class="column">
 						<div class="row m-3">
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
+								<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="Portfolio Example 1">
 								<div class="card-body">
 									<h5 class="card-title text-center">ABQ Street Art Web App</h5>
 									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
-									<a href="#" class="btn btn-primary btn-light">View Project</a>
+									<div class="text-center">
+										<a href="https://bootcamp-coders.cnm.edu/~escott15/abq-street-art/static-ui/home-view.php" target="blank" class="btn btn-primary btn-light">View Project</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -124,11 +126,13 @@
 					<div class="column">
 						<div class="row m-3">
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
+								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 2">
 								<div class="card-body">
 									<h5 class="card-title text-center">Project #2</h5>
 									<p class="card-text">Description #2</p>
-									<a href="#" class="btn btn-primary btn-light">View Project</a>
+									<div class="text-center">
+										<a href="#" target="_blank" class="btn btn-primary btn-light">View Project</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -136,11 +140,13 @@
 					<div class="column">
 						<div class="row m-3">
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 1">
+								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 3">
 								<div class="card-body">
 									<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
 									<p class="card-text">Annual publication distributed internationally to those looking to visit the city. Project managed for 2016 and 2017 editions.</p>
-									<a href="#" class="btn btn-primary btn-light">View Project</a>
+									<div class="text-center">
+										<a href="#" target="blank" class="btn btn-primary btn-light">View Project</a>
+									</div>
 								</div>
 							</div>
 						</div>

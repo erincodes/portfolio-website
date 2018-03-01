@@ -1,23 +1,20 @@
-/*jumbotron.jumbotron-fluid {*/
-/*background:url("images/home-office.jpg");*/
-/*}*/
-
 body, html {
 	margin: 0;
 	padding: 0;
 }
 
-/*.navbar, .navbar-nav, .nav-item, .nav-link{*/
-	/*color: white;*/
-}
-
 .backgroundimg {
 	background-image:url("../images/office-pink.jpg");
 	background-size: cover;
-	background-position: center center;
+	background-position: top right;
 	background-repeat: no-repeat;
-	width: 100%;
 	height: 100vh;
+}
+
+@media only screen and (min-width: 768px) {
+	.backgroundimg {
+		background-position: bottom center;
+	}
 }
 
 /*#contact-section {*/
@@ -40,3 +37,19 @@ body, html {
 		/*-webkit-transform-origin:0 0;*/
 	/*}*/
 /*}*/
+
+footer a,
+footer a:link,
+footer a:visited,
+footer a:active {
+	color: white;
+}
+
+footer a:hover {
+	color: pink;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
