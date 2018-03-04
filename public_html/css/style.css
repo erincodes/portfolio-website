@@ -17,16 +17,9 @@ body, html {
 	}
 }
 
-/*#contact-section {*/
-	/*text-align: center;*/
-/*}*/
-
-/*.headshot-img {*/
-	/*height: 150px;*/
-	/*width: 150px;*/
-	/*float: left;*/
-	/*margin: 10px;*/
-/*}*/
+header {
+	text-align: right;
+}
 
 /*make recaptcha mobile responsive*/
 /*@media screen and (max-width: 575px){*/
