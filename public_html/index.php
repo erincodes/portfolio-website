@@ -93,7 +93,7 @@
 			<div class="container" id="testimonials">
 				<h2>Testimonials</h2>
 				<div class="row">
-					<div class="col p-2 m-2">
+					<div class="col p-2 m-3">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
 								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -129,11 +129,11 @@
 			<div class="container" id="portfolio">
 				<h2>Portfolio</h2>
 				<p>Explore examples of Erin's past work below:</p>
-				<div class="row">
+				<div class="row ml-5 mr-5">
 					<div class="column">
 						<div class="row m-3">
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="Portfolio Example 1">
+								<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="ABQ Street Art">
 								<div class="card-body">
 									<h5 class="card-title text-center">ABQ Street Art Web App</h5>
 									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
@@ -147,12 +147,12 @@
 					<div class="column">
 						<div class="row m-3">
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 2">
+								<img class="card-img-top" src="images/visitors-guide-cover-2017.png" alt="Albuquerque Visitors Guide">
 								<div class="card-body">
-									<h5 class="card-title text-center">Project #2</h5>
-									<p class="card-text">Description #2</p>
+									<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
+									<p class="card-text">Project manager for 2016 and 2017 editions.</p>
 									<div class="text-center">
-										<a href="#" target="_blank" class="btn btn-primary btn-light">View Project</a>
+										<a href="https://www.visitalbuquerque.org/plan-my-trip/travel-tools/guides/" target="blank" class="btn btn-primary btn-light">View Project</a>
 									</div>
 								</div>
 							</div>
@@ -161,12 +161,12 @@
 					<div class="column">
 						<div class="row m-3">
 							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/bowtie-kitty.png" alt="Portfolio Example 3">
+								<img class="card-img-top" src="images/abq-365.png" alt="ABQ 365">
 								<div class="card-body">
-									<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
-									<p class="card-text">Annual publication distributed internationally to those looking to visit the city. Project managed for 2016 and 2017 editions.</p>
+									<h5 class="card-title text-center">ABQ 365</h5>
+									<p class="card-text">Blog content editor and writer. Curated events for Albuquerque city calendar.</p>
 									<div class="text-center">
-										<a href="#" target="blank" class="btn btn-primary btn-light">View Project</a>
+										<a href="https://www.visitalbuquerque.org/abq365/" target="blank" class="btn btn-primary btn-light">View Project</a>
 									</div>
 								</div>
 							</div>
