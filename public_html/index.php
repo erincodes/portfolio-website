@@ -91,34 +91,36 @@
 <!--Testimonials section-->
 		<section>
 			<div class="container" id="testimonials">
-				<h2>Testimonials</h2>
+				<div class="row mt-5 ml-1">
+					<h2>Testimonials</h2>
+				</div>
 				<div class="row">
 					<div class="col p-2 m-3">
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-							</ol>
-							<div class="carousel-inner">
-								<div class="carousel-item active">
-<!--Images are 600 width x 400 height-->
-									<img class="d-block w-100" src="images/testimonial-mary.png" alt="First slide">
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+	<!--Images are 600 width x 400 height-->
+										<img class="d-block w-100" src="images/testimonial-mary.png" alt="First slide">
+									</div>
+									<div class="carousel-item">
+	<!--Images are 600 width x 400 height-->
+										<img class="d-block w-100" src="images/testimonial-nat.png" alt="First slide">
+									</div>
 								</div>
-								<div class="carousel-item">
-<!--Images are 600 width x 400 height-->
-									<img class="d-block w-100" src="images/testimonial-nat.png" alt="First slide">
-								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
 							</div>
-							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
 						</div>
-					</div>
 				</div>
 			</div>
 		</section>
