@@ -39,6 +39,11 @@ header {
 	/*transition: -webkit-transform 2s ease;*/
 /*}*/
 
+#contact-section {
+	background-color: #343A42;
+	color: white;
+}
+
 footer a,
 footer a:link,
 footer a:visited,

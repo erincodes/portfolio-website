@@ -180,8 +180,8 @@
 
 <!--Contact form section-->
 		<section>
-			<div class="container" id="contact-section">
-				<div class="row">
+			<div class="container-fluid" id="contact-section">
+				<div class="row ml-1">
 					<div class="column mt-5 mb-5 pb-5 col-12">
 						<h2>Contact</h2>
 						<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
