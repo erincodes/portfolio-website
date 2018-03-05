@@ -31,6 +31,15 @@ header {
 	/*}*/
 /*}*/
 
+#testimonials > div {
+	background-color: pink;
+	color: black;
+}
+
+/*.carousel-inner .carousel-item {*/
+	/*transition: -webkit-transform 2s ease;*/
+/*}*/
+
 footer a,
 footer a:link,
 footer a:visited,

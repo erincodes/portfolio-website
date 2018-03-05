@@ -65,7 +65,7 @@
 				<div class="row-fluid">
 					<div class="column">
 						<div class="container pt-5">
-							<h1 class="display-3 text-center">Erin Scott</h1>
+							<h1 class="display-3 text-center font-weight-bold">Erin Scott</h1>
 							<p class="lead text-center">Web Development, Marketing, and Project Management</p>
 						</div>
 					</div>
@@ -91,17 +91,38 @@
 <!--Testimonials section-->
 		<section>
 			<div class="container" id="testimonials">
-				<div class="row mt-5">
-					<h2>Testimonials</h2>
-					<div class="column mt-5 col-md-4"">
-						<p>"I loved working with Erin, she was great." -Kind person #1</p>
-					</div>
-					<div class="column mt-5 col-md-4"">
-						<p>"Erin was awesome to collaborate with!" -Kind person #2</p>
+				<h2>Testimonials</h2>
+				<div class="row">
+					<div class="col p-2 m-2">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+<!--Images are 600 width x 400 height-->
+									<img class="d-block w-100" src="images/testimonial-mary.png" alt="First slide">
+								</div>
+								<div class="carousel-item">
+<!--Images are 600 width x 400 height-->
+									<img class="d-block w-100" src="images/testimonial-nat.png" alt="First slide">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
 
 <!--Portfolio section-->
 		<section>
@@ -196,11 +217,14 @@
 							</div>
 							<div class="form-group">
 								<label for="opt-in">Would you like to be added to my email newsletter list?</label>
-								<div class="input-group">
-									<div class="input-group-addon">
-									</div>
-									<input type="checkbox" class="form-control" id="contactFormOptIn" name="contactFormOptIn">
+								<div class="form-check">
+									<div class="input-group-addon"></div>
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+									<label class="form-check-label" for="defaultCheck1">
+										Yes, subscribe me
+									</label>
 								</div>
+
 							</div>
 <!--Google reCAPTCHA-->
 							<div class="g-recaptcha" data-sitekey="6Lc19kcUAAAAAP5R_SiEzd-L2ir3Fjq11JQkk3ko"></div>
