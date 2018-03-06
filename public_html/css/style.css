@@ -21,23 +21,14 @@ header {
 	text-align: right;
 }
 
-/*make recaptcha mobile responsive*/
-/*@media screen and (max-width: 575px){*/
-	/*.g-recaptcha {*/
-		/*transform:scale(0.75);*/
-		/*-webkit-transform:scale(0.75);*/
-		/*transform-origin:0 0;*/
-		/*-webkit-transform-origin:0 0;*/
-	/*}*/
-/*}*/
-
-/*#testimonials > div {*/
-	/*background-color: pink;*/
-/*}*/
 
 /*.carousel-inner .carousel-item {*/
 	/*transition: -webkit-transform 2s ease;*/
 /*}*/
+
+#testimonials {
+	color: white;
+}
 
 #contact-section {
 	background-color: #343A42;
