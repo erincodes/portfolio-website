@@ -98,9 +98,9 @@
 					<div class="col m-1">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 								<ol class="carousel-indicators">
-									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" data-interval="7000" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1" data-interval="7000"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2" data-interval="7000"></li>
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
@@ -226,7 +226,7 @@
 								<label for="opt-in">Would you like to be added to my email newsletter list?</label>
 								<div class="form-check">
 									<div class="input-group-addon"></div>
-									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+									<input class="form-check-input" type="checkbox" value="subscribe" id="defaultCheck1" checked>
 									<label class="form-check-label" for="defaultCheck1">
 										Yes, subscribe me
 									</label>
