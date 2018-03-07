@@ -21,6 +21,20 @@ header {
 	text-align: right;
 }
 
+/*@media only screen and (min-width: 576px) {*/
+	/*.headshot {*/
+		/*height: auto;*/
+		/*width: 250em;*/
+	/*}*/
+/*}*/
+
+/*@media only screen and (max-width: 576px) {*/
+	/*.headshot {*/
+		/*height: auto;*/
+		/*width: auto;*/
+	/*}*/
+/*}*/
+
 
 /*.carousel-inner .carousel-item {*/
 	/*transition: -webkit-transform 2s ease;*/

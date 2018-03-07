@@ -1,4 +1,3 @@
-<!--Refer to content strategy here: https://bootcamp-coders.cnm.edu/~escott15/portfolio-website/public_html/documentation/milestone-2.php-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -79,7 +78,7 @@
 				<div class="row ml-4 pt-5 pb-3">
 					<div class="column-fluid col-md-4">
 						<h2>About Erin</h2>
-						<img class="img-fluid rounded-circle pl-2" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot" height="auto" width="250em">
+						<img class="img-fluid rounded-circle pl-2 headshot" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot" height="auto" width="250em">
 					</div>
 					<div class="column-fluid mt-5 col 2">
 						<p>Erin helps clients craft stellar online presences for their businesses. She brings a strategic approach to web development, marketing, and project management, and excels as a liaison between technical teams & clients. Erin is a 6th generation New Mexican and is passionate about economic development in the Land of Enchantment. She has also spent significant time in Latin America and is an avid Spanish language lover. Connect with her on <a href="https://www.linkedin.com/in/erinscottabq/" target="_blank">LinkedIn</a> or on <a href="https://twitter.com/dot_of_scott/" target="_blank">Twitter.</a></p>
@@ -95,6 +94,7 @@
 					<h2 id="testimonials">Testimonials</h2>
 				</div>
 				<div class="row">
+					<div class="col-md-2"></div>
 					<div class="col m-1">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 								<ol class="carousel-indicators">
@@ -126,6 +126,7 @@
 								</a>
 							</div>
 						</div>
+					<div class="col-md-2"></div>
 				</div>
 			</div>
 		</section>
@@ -136,47 +137,49 @@
 			<div class="container-fluid pt-5" id="portfolio">
 				<h2>Portfolio</h2>
 				<p>Explore examples of Erin's past work below:</p>
-				<div class="row ml-5 mr-5">
-					<div class="column">
-						<div class="row m-3">
-							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="ABQ Street Art">
-								<div class="card-body">
-									<h5 class="card-title text-center">ABQ Street Art Web App</h5>
-									<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
-									<div class="text-center">
-										<a href="https://bootcamp-coders.cnm.edu/~escott15/abq-street-art/static-ui/home-view.php" target="blank" class="btn btn-primary btn-light">View Project</a>
+				<div class="container">
+					<div class="row ml-5 mr-5">
+						<div class="col-12 col-lg-4">
+	<!--						<div class="row m-3">-->
+								<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+									<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="ABQ Street Art">
+									<div class="card-body">
+										<h5 class="card-title text-center">ABQ Street Art Web App</h5>
+										<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
+										<div class="text-center">
+											<a href="https://bootcamp-coders.cnm.edu/~escott15/abq-street-art/static-ui/home-view.php" target="blank" class="btn btn-primary btn-light">View Project</a>
+										</div>
 									</div>
 								</div>
-							</div>
+	<!--						</div>-->
 						</div>
-					</div>
-					<div class="column">
-						<div class="row m-3">
-							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/visitors-guide-cover-2017.png" alt="Albuquerque Visitors Guide">
-								<div class="card-body">
-									<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
-									<p class="card-text">Project manager for 2016 and 2017 editions.</p>
-									<div class="text-center">
-										<a href="https://www.visitalbuquerque.org/plan-my-trip/travel-tools/guides/" target="blank" class="btn btn-primary btn-light">View Project</a>
+						<div class="col-12 col-lg-4">
+	<!--						<div class="row m-3">-->
+								<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+									<img class="card-img-top" src="images/visitors-guide-cover-2017.png" alt="Albuquerque Visitors Guide">
+									<div class="card-body">
+										<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
+										<p class="card-text">Project manager for 2016 and 2017 editions.</p>
+										<div class="text-center">
+											<a href="https://www.visitalbuquerque.org/plan-my-trip/travel-tools/guides/" target="blank" class="btn btn-primary btn-light">View Project</a>
+										</div>
 									</div>
 								</div>
-							</div>
+	<!--						</div>-->
 						</div>
-					</div>
-					<div class="column">
-						<div class="row m-3">
-							<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-								<img class="card-img-top" src="images/abq-365.png" alt="ABQ 365">
-								<div class="card-body">
-									<h5 class="card-title text-center">ABQ 365</h5>
-									<p class="card-text">Blog content editor and writer. Curated events for city calendar.</p>
-									<div class="text-center">
-										<a href="https://www.visitalbuquerque.org/abq365/" target="blank" class="btn btn-primary btn-light">View Project</a>
+						<div class="col-12 col-lg-4">
+	<!--						<div class="row m-3">-->
+								<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+									<img class="card-img-top" src="images/abq-365.png" alt="ABQ 365">
+									<div class="card-body">
+										<h5 class="card-title text-center">ABQ 365</h5>
+										<p class="card-text">Blog content editor and writer. Curated events for city calendar.</p>
+										<div class="text-center">
+											<a href="https://www.visitalbuquerque.org/abq365/" target="blank" class="btn btn-primary btn-light">View Project</a>
+										</div>
 									</div>
 								</div>
-							</div>
+	<!--						</div>-->
 						</div>
 					</div>
 				</div>
