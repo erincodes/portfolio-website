@@ -92,7 +92,7 @@
 			<div class="container-fluid bg-dark" id="testimonials">
 				<div class="container">
 					<div class="row ml-4 pt-5">
-						<h2 id="testimonials">Testimonials</h2>
+						<h2 id="testimonials-header">Testimonials</h2>
 					</div>
 					<div class="row">
 						<div class="col-md-2"></div>

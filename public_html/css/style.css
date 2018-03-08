@@ -40,8 +40,9 @@ header {
 	/*transition: -webkit-transform 2s ease;*/
 /*}*/
 
-#testimonials {
+#testimonials-header {
 	color: white;
+	text-align: center;
 }
 
 #contact-section {
