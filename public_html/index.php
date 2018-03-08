@@ -74,7 +74,7 @@
 
 <!--About section-->
 		<section>
-			<div class="container-fluid" id="about">
+			<div class="container" id="about">
 				<div class="row ml-4 pt-5 pb-3">
 					<div class="column-fluid col-md-4">
 						<h2>About Erin</h2>
@@ -90,29 +90,30 @@
 <!--Testimonials section-->
 		<section>
 			<div class="container-fluid bg-dark" id="testimonials">
-				<div class="row ml-4 pt-5">
-					<h2 id="testimonials">Testimonials</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col m-1">
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<div class="container">
+					<div class="row ml-4 pt-5">
+						<h2 id="testimonials">Testimonials</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-2"></div>
+						<div class="col m-1">
+							<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="8000">
 								<ol class="carousel-indicators">
-									<li data-target="#carouselExampleIndicators" data-slide-to="0" data-interval="7000" class="active"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="1" data-interval="7000"></li>
-									<li data-target="#carouselExampleIndicators" data-slide-to="2" data-interval="7000"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-<!--Images are 500 width x 300 height-->
+										<!--Images are 500 width x 300 height-->
 										<img class="d-block w-100" src="images/testimonial-sam.png" alt="First slide">
 									</div>
 									<div class="carousel-item">
-<!--Images are 500 width x 300 height-->
+										<!--Images are 500 width x 300 height-->
 										<img class="d-block w-100" src="images/testimonial-nat.png" alt="Second slide">
 									</div>
 									<div class="carousel-item">
-<!--Images are 500 width x 300 height-->
+										<!--Images are 500 width x 300 height-->
 										<img class="d-block w-100" src="images/testimonial-mary.png" alt="Third slide">
 									</div>
 								</div>
@@ -126,7 +127,8 @@
 								</a>
 							</div>
 						</div>
-					<div class="col-md-2"></div>
+						<div class="col-md-2"></div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -134,7 +136,7 @@
 
 <!--Portfolio section-->
 		<section>
-			<div class="container-fluid pt-5" id="portfolio">
+			<div class="container pt-5" id="portfolio">
 				<h2>Portfolio</h2>
 				<p>Explore examples of Erin's past work below:</p>
 				<div class="container">
@@ -189,60 +191,62 @@
 <!--Contact form section-->
 		<section>
 			<div class="container-fluid" id="contact-section">
-				<div class="row ml-1">
-					<div class="column ml-4 pt-5 mb-5 pb-5 col-12">
-						<h2>Contact</h2>
-						<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
-							<div class="form-group">
-								<label for="name">Name</label>
-								<div class="input-group">
-									<div class="input-group-addon">
+				<div class="container">
+					<div class="row ml-1">
+						<div class="column ml-4 pt-5 mb-5 pb-5 col-12">
+							<h2>Contact</h2>
+							<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
+								<div class="form-group">
+									<label for="name">Name</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+										</div>
+										<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Your name">
 									</div>
-									<input type="text" class="form-control" id="contactFormName" name="contactFormName" placeholder="Your name">
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="email">Email address</label>
-								<div class="input-group">
-									<div class="input-group-addon">
+								<div class="form-group">
+									<label for="email">Email address</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+										</div>
+										<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Your email address">
 									</div>
-									<input type="email" class="form-control" id="contactFormEmail" name="contactFormEmail" placeholder="Your email address">
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="subject">Subject</label>
-								<div class="input-group">
-									<div class="input-group-addon">
+								<div class="form-group">
+									<label for="subject">Subject</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+										</div>
+										<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Email subject line">
 									</div>
-									<input type="text" class="form-control" id="contactFormSubject" name="contactFormSubject" placeholder="Email subject line">
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="message">Message</label>
-								<div class="input-group">
-									<div class="input-group-addon">
+								<div class="form-group">
+									<label for="message">Message</label>
+									<div class="input-group">
+										<div class="input-group-addon">
+										</div>
+										<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Message for Erin"></textarea>
 									</div>
-									<textarea class="form-control" rows="5" id="contactFormMessage" name="contactFormMessage" placeholder="Message for Erin"></textarea>
 								</div>
-							</div>
-							<div class="form-group">
-								<label for="opt-in">Would you like to be added to my email newsletter list?</label>
-								<div class="form-check">
-									<div class="input-group-addon"></div>
-									<input class="form-check-input" type="checkbox" value="subscribe" id="defaultCheck1" checked>
-									<label class="form-check-label" for="defaultCheck1">
-										Yes, subscribe me
-									</label>
-								</div>
+								<div class="form-group">
+									<label for="opt-in">Would you like to be added to my email newsletter list?</label>
+									<div class="form-check">
+										<div class="input-group-addon"></div>
+										<input class="form-check-input" type="checkbox" value="subscribe" id="defaultCheck1" checked>
+										<label class="form-check-label" for="defaultCheck1">
+											Yes, subscribe me
+										</label>
+									</div>
 
-							</div>
-<!--Google reCAPTCHA-->
-							<div class="g-recaptcha" data-sitekey="6Lc19kcUAAAAAP5R_SiEzd-L2ir3Fjq11JQkk3ko"></div>
-							<br>
-<!--Submit button-->
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-						</form>
-						<div id="output-area"></div>
+								</div>
+	<!--Google reCAPTCHA-->
+								<div class="g-recaptcha" data-sitekey="6Lc19kcUAAAAAP5R_SiEzd-L2ir3Fjq11JQkk3ko"></div>
+								<br>
+	<!--Submit button-->
+								<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+							</form>
+							<div id="output-area"></div>
+						</div>
 					</div>
 				</div>
 			</div>
