@@ -73,15 +73,15 @@
 		</section>
 
 <!--About section-->
-		<section>
+		<section class="py-5">
 			<div class="container" id="about">
-				<div class="row ml-4 pt-5 pb-3">
+				<div class="row">
 					<div class="column-fluid col-md-4">
 						<h2>About Erin</h2>
-						<img class="img-fluid rounded-circle pl-2 headshot" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot" height="auto" width="250em">
+						<img class="img-fluid rounded-circle" src="images/erin-scott-headshot-cropped.png" alt="Erin Scott headshot">
 					</div>
 					<div class="column-fluid mt-5 col 2">
-						<p>Erin helps clients craft stellar online presences for their businesses. She brings a strategic approach to web development, marketing, and project management, and excels as a liaison between technical teams & clients. Erin is a 6th generation New Mexican and is passionate about economic development in the Land of Enchantment. She has also spent significant time in Latin America and is an avid Spanish language lover. Connect with her on <a href="https://www.linkedin.com/in/erinscottabq/" target="_blank">LinkedIn</a> or on <a href="https://twitter.com/dot_of_scott/" target="_blank">Twitter.</a></p>
+						<p class="lead">Erin helps clients craft stellar online presences for their businesses. She brings a strategic approach to web development, marketing, and project management, and excels as a liaison between technical teams & clients. Erin is a 6th generation New Mexican and is passionate about economic development in the Land of Enchantment. She has also spent significant time in Latin America and is an avid Spanish language lover. Connect with her on <a href="https://www.linkedin.com/in/erinscottabq/" target="_blank">LinkedIn</a> or on <a href="https://twitter.com/dot_of_scott/" target="_blank">Twitter.</a></p>
 					</div>
 				</div>
 			</div>
@@ -91,7 +91,7 @@
 		<section>
 			<div class="container-fluid bg-dark" id="testimonials">
 				<div class="container">
-					<div class="row ml-4 pt-5">
+					<div class="text-center pt-5">
 						<h2 id="testimonials-header">Testimonials</h2>
 					</div>
 					<div class="row">
@@ -105,16 +105,16 @@
 								</ol>
 								<div class="carousel-inner">
 									<div class="carousel-item active">
-										<!--Images are 500 width x 300 height-->
+										<!--Images are 1200 width x 800 height-->
 										<img class="d-block w-100" src="images/testimonial-sam.png" alt="First slide">
 									</div>
 									<div class="carousel-item">
-										<!--Images are 500 width x 300 height-->
-										<img class="d-block w-100" src="images/testimonial-nat.png" alt="Second slide">
+										<!--Images are 1200 width x 800 height-->
+										<img class="d-block w-100" src="images/testimonial-mary.png" alt="Second slide">
 									</div>
 									<div class="carousel-item">
-										<!--Images are 500 width x 300 height-->
-										<img class="d-block w-100" src="images/testimonial-mary.png" alt="Third slide">
+										<!--Images are 1200 width x 800 height-->
+										<img class="d-block w-100" src="images/testimonial-nat.png" alt="Third slide">
 									</div>
 								</div>
 								<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -137,13 +137,15 @@
 <!--Portfolio section-->
 		<section>
 			<div class="container pt-5" id="portfolio">
-				<h2>Portfolio</h2>
-				<p>Explore examples of Erin's past work below:</p>
 				<div class="container">
-					<div class="row ml-5 mr-5">
+					<h2>Portfolio</h2>
+					<p>Explore examples of Erin's past work below:</p>
+				</div>
+				<div class="container">
+					<div class="row">
 						<div class="col-12 col-lg-4">
 	<!--						<div class="row m-3">-->
-								<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+								<div class="card text-white bg-dark mb-3">
 									<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="ABQ Street Art">
 									<div class="card-body">
 										<h5 class="card-title text-center">ABQ Street Art Web App</h5>
@@ -157,7 +159,7 @@
 						</div>
 						<div class="col-12 col-lg-4">
 	<!--						<div class="row m-3">-->
-								<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+								<div class="card text-white bg-dark mb-3">
 									<img class="card-img-top" src="images/visitors-guide-cover-2017.png" alt="Albuquerque Visitors Guide">
 									<div class="card-body">
 										<h5 class="card-title text-center">Albuquerque Visitors Guide</h5>
@@ -171,7 +173,7 @@
 						</div>
 						<div class="col-12 col-lg-4">
 	<!--						<div class="row m-3">-->
-								<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+								<div class="card text-white bg-dark mb-3">
 									<img class="card-img-top" src="images/abq-365.png" alt="ABQ 365">
 									<div class="card-body">
 										<h5 class="card-title text-center">ABQ 365</h5>
@@ -193,7 +195,7 @@
 			<div class="container-fluid" id="contact-section">
 				<div class="container">
 					<div class="row ml-1">
-						<div class="column ml-4 pt-5 mb-5 pb-5 col-12">
+						<div class="column pt-5 mb-5 pb-5 col-12">
 							<h2>Contact</h2>
 							<form id="contact-form" action="php/mailer.php" method="post" class="form-horizontal well">
 								<div class="form-group">
