@@ -30,6 +30,7 @@
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<title>Erin Scott's Portfolio</title>
+
 	</head>
 
 	<body>
@@ -144,7 +145,6 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-12 col-lg-4">
-	<!--						<div class="row m-3">-->
 								<div class="card text-white bg-dark mb-3">
 									<img class="card-img-top" src="images/abq-street-art-logo.svg" alt="ABQ Street Art">
 									<div class="card-body">
@@ -155,10 +155,8 @@
 										</div>
 									</div>
 								</div>
-	<!--						</div>-->
 						</div>
 						<div class="col-12 col-lg-4">
-	<!--						<div class="row m-3">-->
 								<div class="card text-white bg-dark mb-3">
 									<img class="card-img-top" src="images/visitors-guide-cover-2017.png" alt="Albuquerque Visitors Guide">
 									<div class="card-body">
@@ -169,21 +167,18 @@
 										</div>
 									</div>
 								</div>
-	<!--						</div>-->
 						</div>
 						<div class="col-12 col-lg-4">
-	<!--						<div class="row m-3">-->
 								<div class="card text-white bg-dark mb-3">
 									<img class="card-img-top" src="images/abq-365.png" alt="ABQ 365">
 									<div class="card-body">
 										<h5 class="card-title text-center">ABQ 365</h5>
 										<p class="card-text">Blog content editor and writer. Curated events for city calendar.</p>
 										<div class="text-center">
-											<a href="https://www.visitalbuquerque.org/abq365/" target="blank" class="btn btn-primary btn-light">View Project</a>
+											<a href="https://www.visitalbuquerque.org/abq365/blog/author/erin/5a270007a6486daf5e5335db/" target="blank" class="btn btn-primary btn-light">View Project</a>
 										</div>
 									</div>
 								</div>
-	<!--						</div>-->
 						</div>
 					</div>
 				</div>
