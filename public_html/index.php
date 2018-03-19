@@ -151,7 +151,7 @@
 										<h5 class="card-title text-center">ABQ Street Art Web App</h5>
 										<p class="card-text">Mobile-first web app built with the Google API as a team capstone project during the Deep Dive Coding Bootcamp.</p>
 										<div class="text-center">
-											<a href="https://bootcamp-coders.cnm.edu/~escott15/abq-street-art/public_html/" target="blank" class="btn btn-primary btn-light">View Project</a>
+											<a href="https://bootcamp-coders.cnm.edu/~escott15/abq-street-art/public_html/" target="blank" class="btn btn-primary btn-light">Final project link coming soon!</a>
 										</div>
 									</div>
 								</div>
